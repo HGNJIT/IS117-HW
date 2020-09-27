@@ -1,34 +1,65 @@
-html {
-  font-family: "Arial", serif;
-  font-size: 36px;
-  margin: fill;
-  padding: 10px;
-  line-height: 40px;
-}
-#wrapper {
-  width: 1208px;
-}
-header {
-  text-align: center;
-}
-footer {
-  text-align: center;
-}
-a {
-  font-size: 80%;
-}
-h1 {
-  font-size: 100%;
-}
-h2 {
-  font-size: 90%;
-}
-p {
-  font-size: 70%;
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  line-height: 37px;
 }
 menu {
-  padding-left: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
 }
-menu li {
-  display: inline;
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+#primary-links {
+  height: 86px;
+  line-height: 86px;
+}
+#primary-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  line-height: 44px;
+}
+#primary-links a {
+  display: block;
+}
+#content {
+  width: 544px;
+  padding-left: 23px;
+  padding-right: 23px;
+  float: left;
+  font-size: 16px;
+  line-height: 27px;
+}
+#content h1 {
+  font-size: 23px;
+  line-height: 52px;
+  margin-bottom: 27px;
+}
+#content h2 {
+  font-size: 16px;
+  line-height: 52px;
+  margin-bottom: 17px;
+}
+#sidebar {
+  width: 329px;
+  padding-top: 75px;
+  padding-left: 19px;
+  padding-right: 19px;
+  float: left;
+  font-size: 11px;
+  line-height: 18px;
+}
+#sidebar h1 {
+  font-size: 23px;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+#footer {
+  clear: both;
+  text-align: center;
+  font-size: 10px;
 }
